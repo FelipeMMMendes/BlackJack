@@ -88,9 +88,7 @@ while computerTurn == True:
         computerTurn = False
         if computerNumber > 21:
             print("The house busted!")
-
-print(computerNumber,playerNumber)
-
+            exit()
 
 if computerTurn==False and playerTurn==False:
     print(Winner(playerNumber,computerNumber))    
